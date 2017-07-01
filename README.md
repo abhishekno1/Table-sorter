@@ -1,4 +1,4 @@
 Table-sorter
 ------------
 
-A simple Table column sort for your projects.
+A simple Table column sorter script for your projects.
