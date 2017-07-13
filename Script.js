@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 	var a = Array()
 	var click = 0
 	var sel = document.querySelectorAll("th");
-	var uni = '';
+	var uni = ''
 	var arrow = document.createElement('span')
 	arrow.setAttribute('id','table_sort_arrow')
 
@@ -24,10 +24,10 @@ document.addEventListener("DOMContentLoaded", function(event) {
 				uni = '&#9652;'
 			}
 			for(let k = 1; k<z.length; k++){					
-				z[k].getElementsByTagName('td')[j].innerHTML = a[k-1];				
+				z[k].getElementsByTagName('td')[j].innerHTML = a[k-1]		
 			}
 			arrow.innerHTML = uni
-			a.length = 0;
+			a.length = 0
 			sel[j].appendChild(arrow)
 		})	
 	}
